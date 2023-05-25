@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Kanit', sans-serif;
+}
+
+.Main-title {
+    color: #E53170;
+    font-weight: 700;
+    text-align: center;
+    padding: 35px;
+}
+
+.main-description {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    border: 2px solid red;
+
+}
+
+.container::after,
+.profile-col::after {
+    contain: "";
+    display: table;
+    clear: both;
+}
+
+.profile-col {
+    width: 33.3%;
+    float: left;
+    box-shadow: 5px 5px 5px #dedede,
+        -5px -5px 5px #dedede,
+        5px -5px 5px #dedede,
+        -5px 5px 5px #dedede;
+}
+
+
+
+.profile-pic {
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    margin: 0 5px 30px 0;
+}
+
+.profile-name,
+.profile-job {}
