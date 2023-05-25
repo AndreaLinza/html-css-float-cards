@@ -45,17 +45,13 @@ html {
         5px -5px 5px #dedede,
         -5px 5px 5px #dedede;
 }
-.profile-col-bgd:nth-child(4){
-    margin: 0 0 40px 0;
-}
-.profile-col-bgd:last-child{
+.profile-col-bgd:nth-child(4), .profile-col-bgd:last-child{
     margin: 0 0 40px 0;
 }
 
 .profile-pic {
     height: 80px;
     float: left;
-
 }
 
 .profile-name{
