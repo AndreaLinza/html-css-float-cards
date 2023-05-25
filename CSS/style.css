@@ -24,7 +24,7 @@ html {
 .container {
     width: 1000px;
     margin: auto;
-    border: 2px solid red;
+   
 
 }
 
@@ -36,6 +36,8 @@ html {
 
 
 .profile-col-bgd{
+    height: 80px;
+    line-height: 20px;
     margin: 0 30px 40px 0;
     width: 30.3%;
     float: left;
@@ -48,16 +50,17 @@ html {
 
 .profile-pic {
     height: 80px;
-    line-height: 80px;
     float: left;
 
 }
 
 .profile-name{
+    font-size: 16px;
     padding: 10px 0 0 90px;
     color: white;
 }
 .profile-job{
+    font-size: 13px;
     padding-left: 90px;
     color: white;
 }
