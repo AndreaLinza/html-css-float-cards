@@ -8,7 +8,7 @@ html {
     font-family: 'Fredoka', sans-serif;
 }
 
-.Main-title {
+.Main-title { 
     color: #E53170;
     font-weight: 700;
     text-align: center;
@@ -24,8 +24,6 @@ html {
 .container {
     width: 1000px;
     margin: auto;
-   
-
 }
 
 .container::after,.profile-col-bgd::after {
@@ -39,13 +37,19 @@ html {
     height: 80px;
     line-height: 20px;
     margin: 0 30px 40px 0;
-    width: 30.3%;
+    width: 31.2%;
     float: left;
     background-color: black;
     box-shadow: 5px 5px 5px #dedede,
         -5px -5px 5px #dedede,
         5px -5px 5px #dedede,
         -5px 5px 5px #dedede;
+}
+.profile-col-bgd:nth-child(4){
+    margin: 0 0 40px 0;
+}
+.profile-col-bgd:last-child{
+    margin: 0 0 40px 0;
 }
 
 .profile-pic {
